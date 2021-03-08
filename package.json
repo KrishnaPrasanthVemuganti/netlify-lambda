@@ -1,0 +1,14 @@
+{
+  "name": "netlify-lambdad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Krishna Prasanth Vemuganti (https://krishnaprasanth.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  }
+}
